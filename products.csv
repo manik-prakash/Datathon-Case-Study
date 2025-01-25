@@ -1,51 +1,201 @@
-product_id,product_name,category,brand,cost_price,base_price
-1000,Canon oiV-1043,Camera,Bose,530.18,639.16
-1001,Apple cbf-8196,Headphones,Bose,480.83,773.46
-1002,Samsung JmT-3890,Tablet,Sony,1026.65,1574.81
-1003,Canon LrZ-8637,Headphones,Dell,457.16,629.82
-1004,Apple jnW-2654,Tablet,Canon,301.54,390.76
-1005,Sony wwM-1161,Camera,Canon,582.21,855.9
-1006,Sony yfJ-0781,Camera,Bose,1311.47,2563.04
-1007,Sony Tec-9593,Smartphone,Canon,212.72,310.27
-1008,Canon gyr-3413,Laptop,Apple,1144.59,1848.55
-1009,Dell nQr-5255,Smartphone,Dell,1952.76,3441.57
-1010,Canon Upk-1928,Tablet,Dell,1125.62,1678.19
-1011,Dell RuX-6483,Laptop,Sony,1747.89,3456.32
-1012,Apple ren-3056,Headphones,Apple,317.09,624.65
-1013,Bose PDj-5376,Camera,Apple,1938.14,2716.16
-1014,Sony qVL-2388,Smartphone,Samsung,748.3,1195.63
-1015,Dell iGF-9653,Headphones,Samsung,1431.62,2062.54
-1016,Apple YRB-0122,Camera,Dell,1091.32,1558.27
-1017,Bose DHq-1669,Tablet,Canon,903.91,1111.37
-1018,Bose XPv-0184,Smartphone,Dell,761.08,1284.44
-1019,Apple aUU-4627,Smartphone,Dell,532.74,853.53
-1020,Sony OtO-8281,Smartphone,Samsung,1009.56,1253.05
-1021,Bose WkI-9325,Smartphone,Canon,1867.99,2658.0
-1022,Bose bhx-0957,Camera,Apple,1930.11,3718.57
-1023,Sony ffU-3039,Headphones,Bose,688.43,958.05
-1024,Dell QEJ-1822,Headphones,Samsung,1937.46,2549.53
-1025,Samsung nIW-4896,Camera,Dell,696.8,1109.0
-1026,Canon CHC-3465,Headphones,Bose,334.19,664.54
-1027,Apple bLJ-3315,Laptop,Apple,557.69,777.22
-1028,Samsung TOd-9301,Tablet,Sony,1472.34,2558.5
-1029,Samsung Gpr-1051,Tablet,Sony,1588.29,2873.69
-1030,Canon UKK-7382,Headphones,Samsung,845.24,1174.98
-1031,Dell ggQ-3763,Laptop,Dell,1753.59,3125.9
-1032,Dell UdR-5667,Camera,Samsung,371.74,555.46
-1033,Canon Zgp-1065,Headphones,Sony,1264.34,2156.77
-1034,Samsung Blr-3872,Tablet,Sony,1049.99,1792.15
-1035,Dell gdP-3178,Headphones,Canon,1728.04,2814.32
-1036,Bose AFE-0132,Headphones,Samsung,624.77,794.85
-1037,Samsung ayq-6026,Tablet,Apple,1479.19,2763.48
-1038,Dell jms-4687,Smartphone,Samsung,990.81,1443.24
-1039,Samsung Vud-0980,Tablet,Apple,765.84,1033.28
-1040,Apple kdG-9788,Camera,Canon,450.8,555.67
-1041,Apple Rpz-2191,Headphones,Sony,565.51,945.94
-1042,Apple cNf-9399,Headphones,Sony,1450.61,2527.04
-1043,Dell qnQ-9985,Camera,Samsung,1323.84,1606.18
-1044,Canon iQP-5346,Laptop,Bose,1768.63,2846.92
-1045,Sony DNK-7510,Camera,Dell,535.83,740.09
-1046,Apple qiw-1838,Tablet,Samsung,419.76,720.37
-1047,Apple CIT-3542,Laptop,Canon,398.09,533.24
-1048,Sony tQg-9808,Laptop,Sony,968.79,1698.05
-1049,Samsung jrs-4118,Camera,Bose,1749.32,2640.4
+product_id,product_name,category,brand,cost_price,base_price,specs
+PROD-60325,Lenovo ,Tablet,Lenovo,489.35,979.54,
+PROD-57870,Nikon ,Camera,Nikon,438.59,593.09,
+PROD-03866,Fujifilm ,Camera,Fujifilm,414.3,781.29,
+PROD-10842,Nikon ,Camera,Nikon,1485.7,3186.38,
+PROD-39590,OnePlus Nord 3,Smartphone,OnePlus,489.3,905.44,Snapdragon 8 Gen2
+PROD-04371,Apple ,Tablet,Apple,688.77,1274.68,
+PROD-60647,OnePlus Pixel 8,Smartphone,OnePlus,1951.45,3208.6,120Hz AMOLED
+PROD-10642,Lenovo ZenBook,Laptop,Lenovo,1740.89,2969.0,Ryzen 7 6800U
+PROD-44500,Apple ,Tablet,Apple,1936.42,3926.2,
+PROD-85137,HP MacBook Pro,Laptop,HP,330.69,501.63,1TB SSD
+PROD-33186,Lenovo ,Tablet,Lenovo,1691.41,2462.74,
+PROD-86175,Apple MacBook Pro,Laptop,Apple,487.14,769.94,Ryzen 7 6800U
+PROD-21685,Lenovo ,Tablet,Lenovo,1943.73,3882.83,
+PROD-75092,Apple Nord 3,Smartphone,Apple,1805.43,2420.55,120Hz AMOLED
+PROD-23132,GoPro ,Camera,GoPro,652.0,1333.9,
+PROD-47636,Samsung Nord 3,Smartphone,Samsung,669.73,1037.01,Snapdragon 8 Gen2
+PROD-02751,Canon ,Camera,Canon,178.93,300.79,
+PROD-62653,Apple ThinkPad X1,Laptop,Apple,692.95,1024.84,32GB DDR5
+PROD-81330,Sony ,Headphones,Sony,1271.03,2711.96,
+PROD-78403,Samsung Galaxy S23,Smartphone,Samsung,1842.68,3429.17,A16 Bionic
+PROD-24513,Asus ThinkPad X1,Laptop,Asus,1499.77,2707.26,32GB DDR5
+PROD-76239,Sony ,Camera,Sony,1557.45,2811.43,
+PROD-79309,Sony ,Headphones,Sony,1464.73,2050.33,
+PROD-27901,Lenovo ,Tablet,Lenovo,523.18,1101.92,
+PROD-68082,Apple MacBook Pro,Laptop,Apple,1192.06,2523.36,RTX 3050
+PROD-01322,Sennheiser ,Headphones,Sennheiser,573.28,784.98,
+PROD-60502,JBL ,Headphones,JBL,448.26,957.81,
+PROD-75769,Canon ,Camera,Canon,345.16,590.53,
+PROD-80470,Amazon ,Tablet,Amazon,920.54,1928.49,
+PROD-47193,OnePlus Galaxy S23,Smartphone,OnePlus,809.15,1250.07,50MP camera
+PROD-14789,Apple ThinkPad X1,Laptop,Apple,802.25,1047.94,32GB DDR5
+PROD-78091,Asus Spectre x360,Laptop,Asus,1431.01,2295.13,32GB DDR5
+PROD-94828,Apple XPS 13,Laptop,Apple,822.71,1257.53,1TB SSD
+PROD-05880,Google Galaxy S23,Smartphone,Google,706.62,1553.13,50MP camera
+PROD-20575,HP ZenBook,Laptop,HP,1079.96,1739.34,i7-1260P
+PROD-17067,Bose ,Headphones,Bose,1132.23,1928.19,
+PROD-92017,Microsoft ,Tablet,Microsoft,833.86,1265.75,
+PROD-83975,Fujifilm ,Camera,Fujifilm,1969.33,3267.0,
+PROD-29997,Dell ZenBook,Laptop,Dell,743.44,1540.8,1TB SSD
+PROD-17801,Apple ,Headphones,Apple,180.69,318.17,
+PROD-66716,Apple ,Headphones,Apple,1343.57,1957.49,
+PROD-91634,HP ThinkPad X1,Laptop,HP,1699.76,2731.45,i7-1260P
+PROD-93621,Apple Nord 3,Smartphone,Apple,627.19,914.1,120Hz AMOLED
+PROD-83851,Apple Spectre x360,Laptop,Apple,1129.85,2481.86,1TB SSD
+PROD-75265,GoPro ,Camera,GoPro,1782.88,2620.54,
+PROD-86805,Lenovo ThinkPad X1,Laptop,Lenovo,1445.66,2993.52,i7-1260P
+PROD-67621,Microsoft ,Tablet,Microsoft,1880.92,3774.64,
+PROD-98323,Microsoft ,Tablet,Microsoft,838.72,1799.99,
+PROD-46435,Asus Spectre x360,Laptop,Asus,675.25,1172.94,32GB DDR5
+PROD-40253,Canon ,Camera,Canon,475.46,625.83,
+PROD-14445,Fujifilm ,Camera,Fujifilm,827.97,1630.9,
+PROD-15930,Sony ,Headphones,Sony,719.91,1287.41,
+PROD-89843,JBL ,Headphones,JBL,1327.22,2024.56,
+PROD-34837,Sony ,Camera,Sony,1800.29,3362.99,
+PROD-57552,Xiaomi Nord 3,Smartphone,Xiaomi,1079.88,2053.97,Snapdragon 8 Gen2
+PROD-02163,Fujifilm ,Camera,Fujifilm,1486.54,2308.14,
+PROD-22372,Sony ,Headphones,Sony,230.67,506.34,
+PROD-14332,GoPro ,Camera,GoPro,1784.46,3520.64,
+PROD-76922,GoPro ,Camera,GoPro,942.14,2044.43,
+PROD-63146,Apple ,Headphones,Apple,1728.07,2704.44,
+PROD-31262,Canon ,Camera,Canon,736.31,1069.52,
+PROD-12578,HP Spectre x360,Laptop,HP,1881.89,4021.63,Ryzen 7 6800U
+PROD-93906,Google iPhone 15,Smartphone,Google,696.29,1369.39,Snapdragon 8 Gen2
+PROD-00897,Lenovo ZenBook,Laptop,Lenovo,1461.49,2289.95,Ryzen 7 6800U
+PROD-73163,Bose ,Headphones,Bose,1754.08,3722.01,
+PROD-58119,Samsung Nord 3,Smartphone,Samsung,1311.6,2472.32,120Hz AMOLED
+PROD-20560,Microsoft ,Tablet,Microsoft,775.29,1269.94,
+PROD-55971,Google Redmi Note 12,Smartphone,Google,1011.36,2078.39,A16 Bionic
+PROD-23706,Apple ThinkPad X1,Laptop,Apple,221.84,313.76,i7-1260P
+PROD-97224,Fujifilm ,Camera,Fujifilm,549.27,1021.97,
+PROD-66479,Lenovo ,Tablet,Lenovo,509.6,851.14,
+PROD-62267,Apple ,Headphones,Apple,395.58,859.43,
+PROD-42491,Google Pixel 8,Smartphone,Google,1621.09,2747.87,50MP camera
+PROD-33956,Xiaomi Galaxy S23,Smartphone,Xiaomi,491.02,942.59,Snapdragon 8 Gen2
+PROD-34997,Apple iPhone 15,Smartphone,Apple,439.41,666.06,A16 Bionic
+PROD-98567,Asus ZenBook,Laptop,Asus,667.88,1311.79,RTX 3050
+PROD-35742,Sony ,Camera,Sony,608.3,985.67,
+PROD-32197,Canon ,Camera,Canon,782.48,1081.87,
+PROD-73574,Apple Spectre x360,Laptop,Apple,474.36,942.57,RTX 3050
+PROD-35239,Apple ,Tablet,Apple,1009.65,1902.98,
+PROD-90615,Apple Nord 3,Smartphone,Apple,1905.92,2555.41,50MP camera
+PROD-30943,Apple Galaxy S23,Smartphone,Apple,1876.86,3351.02,Snapdragon 8 Gen2
+PROD-23424,Samsung ,Tablet,Samsung,199.05,363.7,
+PROD-90355,Apple ,Headphones,Apple,1214.63,2003.35,
+PROD-34264,Apple ,Tablet,Apple,997.77,1787.06,
+PROD-75942,Fujifilm ,Camera,Fujifilm,864.29,1871.25,
+PROD-13161,Google Redmi Note 12,Smartphone,Google,512.21,764.8,A16 Bionic
+PROD-80869,Xiaomi Pixel 8,Smartphone,Xiaomi,324.72,520.49,A16 Bionic
+PROD-46948,Nikon ,Camera,Nikon,1410.99,2266.84,
+PROD-25178,Sony ,Headphones,Sony,1067.67,2053.77,
+PROD-37726,Xiaomi Nord 3,Smartphone,Xiaomi,1882.8,3155.86,Snapdragon 8 Gen2
+PROD-03818,Apple XPS 13,Laptop,Apple,478.26,866.45,32GB DDR5
+PROD-20076,Lenovo Spectre x360,Laptop,Lenovo,913.34,1392.86,RTX 3050
+PROD-74031,Apple ,Tablet,Apple,1407.71,2767.44,
+PROD-56059,Sony ,Headphones,Sony,848.8,1511.62,
+PROD-64950,Apple ,Tablet,Apple,742.09,1562.82,
+PROD-39563,Apple XPS 13,Laptop,Apple,170.05,350.72,i7-1260P
+PROD-80473,Amazon ,Tablet,Amazon,1210.86,2262.68,
+PROD-01288,GoPro ,Camera,GoPro,692.44,1104.99,
+PROD-19080,Sennheiser ,Headphones,Sennheiser,1541.89,3102.93,
+PROD-98086,Asus Spectre x360,Laptop,Asus,1872.22,2530.87,Ryzen 7 6800U
+PROD-18810,Sony ,Camera,Sony,1792.25,2895.96,
+PROD-74204,OnePlus iPhone 15,Smartphone,OnePlus,1422.86,2641.39,Snapdragon 8 Gen2
+PROD-77289,Nikon ,Camera,Nikon,883.81,1858.39,
+PROD-78542,Xiaomi Pixel 8,Smartphone,Xiaomi,1099.65,2004.85,Snapdragon 8 Gen2
+PROD-84376,Apple XPS 13,Laptop,Apple,587.87,1077.39,1TB SSD
+PROD-70553,Microsoft ,Tablet,Microsoft,1587.72,2861.97,
+PROD-50807,Bose ,Headphones,Bose,1826.76,2557.61,
+PROD-64369,Sennheiser ,Headphones,Sennheiser,171.0,294.43,
+PROD-73039,OnePlus Redmi Note 12,Smartphone,OnePlus,369.81,754.6,50MP camera
+PROD-90602,Lenovo XPS 13,Laptop,Lenovo,1229.23,2012.72,i7-1260P
+PROD-09145,Dell Spectre x360,Laptop,Dell,563.65,738.91,RTX 3050
+PROD-07098,GoPro ,Camera,GoPro,230.29,491.02,
+PROD-56774,Lenovo ,Tablet,Lenovo,618.03,1190.25,
+PROD-30441,HP XPS 13,Laptop,HP,457.5,881.22,i7-1260P
+PROD-41035,Sony ,Camera,Sony,1817.14,2436.61,
+PROD-72959,Samsung ,Tablet,Samsung,1908.26,4009.71,
+PROD-50346,Amazon ,Tablet,Amazon,770.97,1120.0,
+PROD-92266,Samsung ,Tablet,Samsung,868.3,1308.06,
+PROD-34219,Amazon ,Tablet,Amazon,816.64,1252.69,
+PROD-06756,Sony ,Headphones,Sony,667.56,1114.88,
+PROD-54110,Fujifilm ,Camera,Fujifilm,651.27,924.72,
+PROD-15358,Sennheiser ,Headphones,Sennheiser,1889.98,3165.67,
+PROD-06504,Canon ,Camera,Canon,923.75,1976.32,
+PROD-83655,Google Galaxy S23,Smartphone,Google,233.65,467.26,A16 Bionic
+PROD-02401,Lenovo XPS 13,Laptop,Lenovo,1249.14,2714.28,32GB DDR5
+PROD-36728,Asus XPS 13,Laptop,Asus,267.5,447.62,i7-1260P
+PROD-45487,Fujifilm ,Camera,Fujifilm,1653.87,3638.09,
+PROD-72833,Sennheiser ,Headphones,Sennheiser,1232.53,2407.76,
+PROD-44122,Apple Redmi Note 12,Smartphone,Apple,849.02,1447.99,A16 Bionic
+PROD-90849,Lenovo MacBook Pro,Laptop,Lenovo,658.25,991.18,i7-1260P
+PROD-44586,OnePlus iPhone 15,Smartphone,OnePlus,647.04,1131.25,A16 Bionic
+PROD-06641,JBL ,Headphones,JBL,719.39,1463.78,
+PROD-36879,Lenovo ,Tablet,Lenovo,313.56,631.08,
+PROD-93561,Asus Spectre x360,Laptop,Asus,1297.57,2626.98,1TB SSD
+PROD-63302,Apple Pixel 8,Smartphone,Apple,1241.35,1715.42,A16 Bionic
+PROD-90075,Apple ,Tablet,Apple,1100.88,2207.58,
+PROD-25351,Samsung ,Tablet,Samsung,1745.37,3760.52,
+PROD-88632,Samsung ,Tablet,Samsung,1864.19,3249.11,
+PROD-12946,Amazon ,Tablet,Amazon,999.4,2180.72,
+PROD-25521,Nikon ,Camera,Nikon,758.19,1417.86,
+PROD-83148,JBL ,Headphones,JBL,1143.94,1960.84,
+PROD-83265,Apple ,Headphones,Apple,486.48,783.77,
+PROD-63283,JBL ,Headphones,JBL,1103.19,2400.32,
+PROD-60094,Nikon ,Camera,Nikon,564.12,1150.59,
+PROD-42767,OnePlus Redmi Note 12,Smartphone,OnePlus,793.1,1422.7,Snapdragon 8 Gen2
+PROD-07530,Apple Spectre x360,Laptop,Apple,531.72,752.85,Ryzen 7 6800U
+PROD-87186,Sony ,Camera,Sony,222.73,449.8,
+PROD-02824,Lenovo ZenBook,Laptop,Lenovo,1853.61,2414.02,1TB SSD
+PROD-76695,Dell MacBook Pro,Laptop,Dell,1254.96,1867.9,Ryzen 7 6800U
+PROD-66016,Samsung ,Tablet,Samsung,1532.82,2043.27,
+PROD-81954,JBL ,Headphones,JBL,1806.13,3179.71,
+PROD-02364,Lenovo ,Tablet,Lenovo,1754.35,2839.82,
+PROD-75878,Sony ,Headphones,Sony,1514.2,2216.87,
+PROD-01542,Dell Spectre x360,Laptop,Dell,541.18,964.28,i7-1260P
+PROD-44410,Asus MacBook Pro,Laptop,Asus,1248.15,2021.5,i7-1260P
+PROD-75146,Nikon ,Camera,Nikon,310.8,554.28,
+PROD-45062,Samsung iPhone 15,Smartphone,Samsung,1194.25,1857.53,A16 Bionic
+PROD-53184,Samsung ,Tablet,Samsung,1273.98,1936.34,
+PROD-77756,Sennheiser ,Headphones,Sennheiser,761.14,1629.09,
+PROD-68495,GoPro ,Camera,GoPro,432.79,658.43,
+PROD-90450,Microsoft ,Tablet,Microsoft,312.59,633.08,
+PROD-10904,Lenovo ZenBook,Laptop,Lenovo,1120.35,2447.0,Ryzen 7 6800U
+PROD-58107,Amazon ,Tablet,Amazon,1847.18,2410.15,
+PROD-19922,Lenovo Spectre x360,Laptop,Lenovo,1668.59,3005.28,Ryzen 7 6800U
+PROD-01506,Sennheiser ,Headphones,Sennheiser,1573.56,2310.52,
+PROD-78911,Microsoft ,Tablet,Microsoft,519.09,1018.78,
+PROD-91030,Apple ,Tablet,Apple,1279.65,1995.96,
+PROD-70713,Sony ,Camera,Sony,1874.23,2977.36,
+PROD-39049,Sony ,Headphones,Sony,833.08,1423.6,
+PROD-71797,Nikon ,Camera,Nikon,1981.43,3150.71,
+PROD-75389,OnePlus Redmi Note 12,Smartphone,OnePlus,621.09,808.93,Snapdragon 8 Gen2
+PROD-36210,JBL ,Headphones,JBL,795.41,1699.45,
+PROD-72698,Amazon ,Tablet,Amazon,905.76,1938.0,
+PROD-60315,Sony ,Headphones,Sony,529.25,868.66,
+PROD-99549,Apple ThinkPad X1,Laptop,Apple,1707.38,3441.64,1TB SSD
+PROD-46666,Sennheiser ,Headphones,Sennheiser,494.85,748.27,
+PROD-22934,OnePlus iPhone 15,Smartphone,OnePlus,734.96,1215.04,120Hz AMOLED
+PROD-64443,Sennheiser ,Headphones,Sennheiser,707.55,1395.89,
+PROD-79921,Dell Spectre x360,Laptop,Dell,807.42,1444.63,32GB DDR5
+PROD-43131,JBL ,Headphones,JBL,1311.26,2099.87,
+PROD-07715,Lenovo ,Tablet,Lenovo,1066.53,2098.2,
+PROD-28084,Apple ,Headphones,Apple,1995.73,3945.88,
+PROD-46936,GoPro ,Camera,GoPro,1590.36,2272.33,
+PROD-55276,Samsung ,Tablet,Samsung,1560.55,3260.13,
+PROD-34739,Asus MacBook Pro,Laptop,Asus,354.67,606.95,1TB SSD
+PROD-58283,GoPro ,Camera,GoPro,1049.76,1751.06,
+PROD-89242,Nikon ,Camera,Nikon,172.58,317.31,
+PROD-39549,Amazon ,Tablet,Amazon,1474.93,2712.58,
+PROD-31182,Microsoft ,Tablet,Microsoft,1924.29,3094.78,
+PROD-56628,Google Redmi Note 12,Smartphone,Google,433.7,618.11,A16 Bionic
+PROD-39680,Dell MacBook Pro,Laptop,Dell,183.5,336.48,1TB SSD
+PROD-97566,Amazon ,Tablet,Amazon,1611.66,2128.55,
+PROD-65721,Samsung iPhone 15,Smartphone,Samsung,1216.13,1656.4,50MP camera
+PROD-00053,Canon ,Camera,Canon,1862.3,3176.63,
+PROD-63303,GoPro ,Camera,GoPro,456.21,669.57,
+PROD-44916,Dell ThinkPad X1,Laptop,Dell,1759.31,3223.32,RTX 3050
+PROD-09908,Asus MacBook Pro,Laptop,Asus,770.11,1547.16,Ryzen 7 6800U
+PROD-23865,Lenovo XPS 13,Laptop,Lenovo,886.61,1841.64,Ryzen 7 6800U
+PROD-77975,Google Galaxy S23,Smartphone,Google,1514.38,2768.83,50MP camera
